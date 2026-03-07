@@ -1,6 +1,23 @@
+:root {
+  --link-color:#00B7FF;
+  --primary-bg-color-dm: black;
+  --secondary-bg-color-dm: #002960;
+  --primary-text-color-dm: white;
+  --accent-color: #ffcc00;
+
+  --primary-bg-color-lm: white;
+  --secondary-bg-color-lm: lightgray;
+  --primary-text-color-lm: black;
+}
+
+
+
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: var(--primary-bg-color-dm);
+  color: var(--primary-text-color-dm);
 }
 
 a {
