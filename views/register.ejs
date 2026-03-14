@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Include head partial -->
+<%- include('./partials/head')-%>
+</head>
+<body>
+    <%- include('./partials/navmenu') -%>
+
+ <!-- This h1 tag has embedded Javascipt passing a title varib -->
+ <h1><%= title %></h1>
+<form action="/register" method="post">
+username: <input name="username" type="password"><br><br>
+email: <input name="email" type="email"><br><br>
+password: <input name="password"type="password"><br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

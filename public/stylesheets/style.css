@@ -31,3 +31,14 @@ table {
 td,th {
   border: 1px solid var(--accent-color);
 }
+
+adbpahistory, #htmltags, #numconversion {
+background-color: var(--secondary-bg-color-dm);
+Padding: 1.5rem;
+border: 1px var(--accent-color) solid;
+margin: 1.srem;
+
+
+}
+
+
